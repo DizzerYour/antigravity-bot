@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  antigravity-bot:
+    build: .
+    container_name: antigravity_telegram_bot
+    restart: unless-stopped
+    environment:
+      - BOT_TOKEN=8892256594:AAGSISNYKcXQd-c-egBZzZI9vgYF0OQL6X8
+      - GEMINI_API_KEY=AQ.Ab8RN6K8DqFMT4-eAGzEXtXG_MqU85MJOaC2zC5Y26eZKKZ4JQ
+      - ALLOWED_USER_ID=5024163465
+      - GEMINI_MODEL=gemini-3.5-flash-lite
+      - PROXY=

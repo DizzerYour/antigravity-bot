@@ -1,0 +1,4 @@
+aiogram>=3.14.0
+google-genai>=3.6.0
+pillow>=10.0.0
+aiohttp-socks>=0.8.0
